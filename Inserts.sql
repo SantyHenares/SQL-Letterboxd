@@ -54,7 +54,10 @@ VALUES ('Inception', 'Un ladrón se infiltra en los sueños de las personas para
 ('Blade Runner', 'Un blade runner persigue a replicantes en un futuro distópico de Los Ángeles.', 4, 1982, 117),
 ('The Matrix', 'Un hacker descubre la verdad sobre su realidad simulada y su papel en la guerra contra las máquinas.', 4, 1999, 136),
 ('The Shining', 'Un escritor en un aislado hotel descubre fuerzas sobrenaturales que lo llevan a la locura.', 5, 1980, 144),
-('The Conjuring', 'Una pareja trabaja para ayudar a una familia aterrorizada por una presencia oscura en su granja.', 5, 2013, 112);
+('The Conjuring', 'Una pareja trabaja para ayudar a una familia aterrorizada por una presencia oscura en su granja.', 5, 2013, 112),
+('Guardians of the Galaxy Vol. 3', 'Los Guardianes de la Galaxia enfrentan nuevas amenazas mientras descubren secretos del pasado de Star-Lord.', 4, 2023, 150),
+('Barbie', 'Barbie y Ken están viviendo el momento de sus vidas en el colorido y aparentemente perfecto mundo de Barbie Land.', 2, 2023, 114),
+('Oppenheimer', 'La historia del papel de J. Robert Oppenheimer en el desarrollo de la bomba atómica durante la Segunda Guerra Mundial.', 3, 2023, 181);
 
 -- Users se cargaron con USER_DATA.csv
 
@@ -75,4 +78,10 @@ INSERT INTO reviews (id_movie, id_list_review, rating, content)
 value (2, 1, 3.5, "makes me think of my dad. i’ll always have a soft spot in my heart for this movie"),
 (2, 2, 4.0, "me parecio una maravisha del universo nocierto?"),
 (3, 3, 3.0, "all i have to say is ..... thank you heath ledger."),
-(5, 4, 5.0, "Terror adolescente, obsesión, posesión, relaciones toxicas, buena música y la bella Christine asesinando gente, que mas necesitan? :)");
+(5, 4, 5.0, "Terror adolescente, obsesión, posesión, relaciones toxicas, buena música y la bella Christine asesinando gente, que mas necesitan? :)"),
+(16, 1, 3.5, "the best marvel phase 5 movie"),
+(16, 2, 3.0, "this is not a movie, this is a f*#% apology letter from marvel studios"),
+(17, 3, 4.0, "thanks greta gerwig for changing my life once again"),
+(17, 4, 5.0, "s(he's) bro(ken)"),
+(18, 3, 4.0, "I seriously cant get over the fact that this and barbie are realising on the same day"),
+(18, 4, 4.5, "watching this after i just watched barbie, call me atomic blonde");
